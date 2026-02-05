@@ -1,0 +1,15 @@
+.interview-bg {
+  @apply min-h-screen bg-slate-100 p-8 flex justify-center;
+}
+
+.interview-card {
+  @apply bg-white rounded-xl p-8 shadow max-w-4xl w-full;
+}
+
+.interview-card h2 {
+  @apply text-xl font-semibold;
+}
+
+.interview-card ul {
+  @apply mt-6 space-y-3 text-slate-600;
+}

@@ -1,0 +1,20 @@
+.cv-bg {
+  @apply min-h-screen bg-cover bg-center flex items-center justify-center;
+  background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
+}
+
+.cv-card {
+  @apply bg-white/95 backdrop-blur rounded-2xl p-10 text-center;
+}
+
+.cv-card h2 {
+  @apply text-2xl font-semibold text-slate-800;
+}
+
+.cv-card p {
+  @apply text-slate-500 mt-2;
+}
+
+.cv-card button {
+  @apply mt-8 bg-slate-900 text-white px-8 py-3 rounded-xl;
+}

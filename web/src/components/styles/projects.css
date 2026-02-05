@@ -1,0 +1,23 @@
+.projects-bg {
+  @apply min-h-screen bg-slate-100 p-8;
+}
+
+.projects-title {
+  @apply text-2xl font-semibold text-slate-800;
+}
+
+.projects-grid {
+  @apply grid md:grid-cols-3 gap-6 mt-6;
+}
+
+.project-card {
+  @apply bg-white rounded-xl p-6 shadow;
+}
+
+.project-card p {
+  @apply text-sm text-slate-500 mt-2;
+}
+
+.project-card button {
+  @apply mt-4 text-blue-600 text-sm;
+}
